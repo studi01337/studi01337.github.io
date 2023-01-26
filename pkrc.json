@@ -15,20 +15,20 @@
     "fonts": true,
     "darkmode": true,
     "toc": true,
-    "navbar": true,
-    "search": true,
-    "social": true,
+    "navbar": false,
+    "search": false,
+    "social": false,
     "modal": true,
     "pdf": true,
     "highlight": true
   },
   "header": {
     "fluid": false,
-    "contrast": true
+    "contrast": false
   },
   "fonts": {
-    "font": "Marcher",
-    "headings": "Marcher"
+    "font": "Aqua",
+    "headings": "Barter"
   },
   "highlight": {
     "theme": "arta"
@@ -38,9 +38,5 @@
     "fuzzy": 0.2,
     "padding": 40,
     "max_results": 6
-  },
-  "pdf": {
-    "toolbar": false,
-    "width": "100%"
   }
 }
