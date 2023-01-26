@@ -1,0 +1,46 @@
+{
+  "pk": {
+    "version": "latest",
+    "dirs": true
+  },
+  "site": {
+    "id": null,
+    "name": "Studio1337",
+    "description": "Welcome to Studio1337",
+    "url": "https://studio1337.tech",
+    "theme": "default"
+  },
+  "plugins": {
+    "header": true,
+    "fonts": true,
+    "darkmode": true,
+    "toc": true,
+    "navbar": true,
+    "search": true,
+    "social": true,
+    "modal": true,
+    "pdf": true,
+    "highlight": true
+  },
+  "header": {
+    "fluid": false,
+    "contrast": true
+  },
+  "fonts": {
+    "font": "Marcher",
+    "headings": "Marcher"
+  },
+  "highlight": {
+    "theme": "arta"
+  },
+  "search": {
+    "chars": 3,
+    "fuzzy": 0.2,
+    "padding": 40,
+    "max_results": 6
+  },
+  "pdf": {
+    "toolbar": false,
+    "width": "100%"
+  }
+}
