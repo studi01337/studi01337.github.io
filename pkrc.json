@@ -20,7 +20,7 @@
     "social": true,
     "modal": true,
     "pdf": true,
-    "ga": "ga|id:G-LC3WH6SJE1"
+    "ga": "@ga|id:G-LC3WH6SJE1"
   },
   "header": {
     "fluid": false,
