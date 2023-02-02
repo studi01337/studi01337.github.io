@@ -11,27 +11,20 @@
     "theme": "default"
   },
   "plugins": {
+    "theme": true,
     "header": true,
-    "fonts": true,
     "darkmode": true,
     "toc": true,
-    "navbar": false,
-    "search": false,
-    "social": false,
+    "navbar": true,
+    "search": true,
+    "social": true,
     "modal": true,
     "pdf": true,
-    "highlight": true
+    "ga": "ga|id:G-LC3WH6SJE1"
   },
   "header": {
     "fluid": false,
-    "contrast": false
-  },
-  "fonts": {
-    "font": "Aqua",
-    "headings": "Barter"
-  },
-  "highlight": {
-    "theme": "arta"
+    "contrast": true
   },
   "search": {
     "chars": 3,
