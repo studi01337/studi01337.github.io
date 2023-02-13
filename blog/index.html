@@ -2,13 +2,19 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Blog</title>
+  <meta charset="utf-8" />
+  <meta name="url" content="https://studio1337.tech" />
+  <meta name="title" content="The Blog" />
   <meta name="description" content="Welcome to Studio1337" />
+  <meta name="name" content="Studio1337" />
+  <meta name="keyswords" content="markdown, publishing, blogging, blog, api doc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:url" content="https://studio1337.tech" />
   <meta property="og:title" content="The Blog" />
   <meta property="og:description" content="Welcome to Studio1337" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/publishkit/sdk@latest/sdk.js"></script>
+  <meta property="og:site_name" content="Studio1337" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/publishkit/kit@latest/init.js"></script>
 </head>
 
 <body>
@@ -18,7 +24,7 @@
   <template id="content">
     <h1>The Blog</h1>
     <div class="block-language-dataview node-insert-event">
-      <table class="dataview table-view-table">
+      <table class="dataview">
         <thead class="table-view-thead">
           <tr class="table-view-tr-header">
             <th class="table-view-th"><span>date</span><span class="dataview small-text">1</span></th>

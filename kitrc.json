@@ -1,5 +1,5 @@
 {
-  "pk": {
+  "kit": {
     "version": "latest",
     "dirs": true
   },
@@ -8,7 +8,7 @@
     "name": "Studio1337",
     "description": "Welcome to Studio1337",
     "url": "https://studio1337.tech",
-    "theme": "default"
+    "keyswords": "markdown, publishing, blogging, blog, api doc"
   },
   "plugins": {
     "theme": true,
@@ -18,18 +18,6 @@
     "navbar": true,
     "search": true,
     "social": true,
-    "modal": true,
-    "pdf": true,
     "ga": "@ga|id:G-LC3WH6SJE1"
-  },
-  "header": {
-    "fluid": false,
-    "contrast": true
-  },
-  "search": {
-    "chars": 3,
-    "fuzzy": 0.2,
-    "padding": 40,
-    "max_results": 6
   }
 }
