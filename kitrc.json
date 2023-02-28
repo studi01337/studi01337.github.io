@@ -8,16 +8,42 @@
     "name": "Studio1337",
     "description": "Welcome to Studio1337",
     "url": "https://studio1337.tech",
-    "keyswords": "markdown, publishing, blogging, blog, api doc"
+    "keyswords": "markdown, publishing, bloging, blog, api doc"
   },
   "plugins": {
     "theme": true,
     "header": true,
-    "darkmode": true,
+    "bg": true,
+    "darkmode": "dark",
     "toc": true,
+    "modal": true,
     "navbar": true,
-    "search": true,
+    "search": false,
     "social": true,
-    "ga": "@ga|id:G-LC3WH6SJE1"
+    "ga": "@ga|id:G-LC3WH6SJE1",
+    "cards": true,
+    "css": true
+  },
+  "theme": {
+    "radius": "none",
+    "layout": {
+      "mode": "stacked",
+      "width": "800px"
+    },
+    "primary": "#e01c6f",
+    "font": "Informative",
+    "headings": {
+      "font": "Shizuru"
+    }
+  },
+  "header": {
+    "logo": "assets/logo.svg"
+  },
+  "navbar": {
+    "ui": "header.right"
+  },
+  "bg": {
+    "url": "https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=2550&q=80",
+    "parallax": true
   }
 }

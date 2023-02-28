@@ -1,0 +1,17 @@
+{
+  "nested": false,
+  "items": [
+    [
+      "<a href=\"index.html\" class=\"internal-link\">Studio</a>",
+      "bx-home-heart"
+    ],
+    [
+      "<a href=\"portfolio/index.html\" class=\"internal-link\">Portfolio</a>",
+      "bx-palette"
+    ],
+    [
+      "<a href=\"blog/index.html\" class=\"internal-link\">Blog</a>",
+      "bx-notepad"
+    ]
+  ]
+}
